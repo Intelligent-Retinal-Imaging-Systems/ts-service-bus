@@ -7,6 +7,6 @@
     "strict": true,
     "esModuleInterop": true
   },
-  "include": ["src"],
+  "include": ["src/Iris.Public.ts"],
   "exclude": ["node_modules", "dist"]
 }

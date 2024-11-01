@@ -1,5 +1,4 @@
-import {Config} from "../interfaces";
-import {OrderRequest} from "../classes";
+import {Config, OrderRequest} from "../types";
 import {ServiceBusClient, ServiceBusSender} from "@azure/service-bus";
 /**
  * Send order to IRIS

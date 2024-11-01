@@ -1,3 +1,5 @@
+import {ImageContext, Laterality } from "../../enums";
+
 export abstract class BaseImage {
     public LocalId: string; // Declare property without initial value
     public Taken: any; // Consider specifying a more precise type if possible

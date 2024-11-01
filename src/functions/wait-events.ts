@@ -1,5 +1,4 @@
-import {Config} from "../interfaces";
-import {OrderResult} from "../classes";
+import {Config, OrderResult} from "../types";
 import {
     delay,
     isServiceBusError,
