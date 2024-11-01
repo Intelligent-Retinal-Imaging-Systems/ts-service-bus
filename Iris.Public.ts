@@ -7,7 +7,7 @@ import {
     ServiceBusSender,
   } from "@azure/service-bus";
 
-
+/** Structure for storing all IRIS service bus connection string */
 interface IRISServiceBusConnectionStrings {
 	Orders: string,
 	Events: string,
