@@ -1,0 +1,37 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FindingConstants = void 0;
+class FindingConstants {
+}
+exports.FindingConstants = FindingConstants;
+FindingConstants.None = `None`;
+FindingConstants.Normal = `Normal`;
+FindingConstants.Abnormal = `Abnormal`;
+FindingConstants.NotGradable = `Not Gradable`;
+FindingConstants.DiabeticRetinopathy = `Diabetic Retinopathy`;
+FindingConstants.MacularEdema = `Macular Edema`;
+FindingConstants.Glaucoma = `Glaucoma`;
+FindingConstants.SuspectedVeinOcclusion = `Suspected Vein Occlusion`;
+FindingConstants.SuspectedWetAMD = `Suspected Wet AMD`;
+FindingConstants.SuspectedHTNRetinopathy = `Suspected HTN Retinopathy`;
+FindingConstants.SuspectedEpiretinalMembrane = `Suspected Epiretinal Membrane`;
+FindingConstants.SuspectedMacularHole = `Suspected Macular Hole`;
+FindingConstants.SuspectedCataract = `Suspected Cataract`;
+FindingConstants.SuspectedOtherDisease = `Suspected Other Disease`;
+FindingConstants.SuspectedDryAMD = `Suspected Dry AMD`;
+FindingConstants.SuspectedGlaucoma = `Suspected Glaucoma`;
+FindingConstants.ParacentralDefect = `Paracentral Defect`;
+FindingConstants.PeripheralDefect = `Peripheral Defect`;
+FindingConstants.SuspectedGeographicAtrophy = `Suspected Geographic Atrophy`;
+FindingConstants.FixationError = `Fixation Error`;
+FindingConstants.Other = `Other`;
+FindingConstants.FalsePositive = `False Positive`;
+FindingConstants.FalseNegative = `False Negative`;
+FindingConstants.HIVRetinopathy = `HIV Retinopathy`;
+FindingConstants.SuspectedDiabeticRetinopathyMildOnly = `Suspected Diabetic Retinopathy - Mild Only`;
+FindingConstants.SuspectedDiabeticRetinopathyModeratetoProliferative = `Suspected Diabetic Retinopathy - Moderate to Proliferative`;
+FindingConstants.SuspectedMacularEdema = `Suspected Macular Edema`;
+FindingConstants.Suspecteddiscedema = `Suspected disc edema`;
+FindingConstants.Suspectedbilateralpapilledema = `Suspected bilateral papilledema`;
+FindingConstants.DryAMD = `Dry AMD`;
+FindingConstants.WetAMD = `Wet AMD`;

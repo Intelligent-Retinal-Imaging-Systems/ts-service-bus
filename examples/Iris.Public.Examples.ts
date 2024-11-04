@@ -1,5 +1,5 @@
  
-import * as IrisPublic from "../Iris.Public";
+import * as IrisPublic from "../dist/Iris.Public";
 
 /** 
  * Application entry point 

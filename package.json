@@ -1,7 +1,13 @@
 {
-    "name": "iris-public-sb",
+    "name": "@iris/service-bus",
     "version": "1.0.0",
     "author": " Intelligent Retinal Imaging Systems (http://retinalscreenings.com)",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
     "dependencies": {
         "@azure/identity": "^4.5.0",
         "@azure/service-bus": "^7.9.5",
