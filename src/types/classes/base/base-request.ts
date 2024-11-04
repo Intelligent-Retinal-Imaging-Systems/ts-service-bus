@@ -1,12 +1,11 @@
-import {RequestSite} from "../Iris.Public";
+import {RequestSite} from "../../";
 
-class BaseRequest
-{
+export class BaseRequest {
+    public ClientGuid: string = "";
+    public Site: RequestSite;
+    public Version: string = "";
+
     constructor() {
         this.Site = new RequestSite();
     }
-
-    public ClientGuid: string;
-    public Site: RequestSite;
-    public Version: string;
 }

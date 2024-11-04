@@ -1,4 +1,4 @@
-import { GenderContext, Gender } from "../enums";
+import { GenderContext, Gender } from "../";
 
 export class PersonGender {
     public Context: GenderContext; // You may want to initialize this if it has a default value

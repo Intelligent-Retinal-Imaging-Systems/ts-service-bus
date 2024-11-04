@@ -54,7 +54,7 @@ export * from './classes/person-name';
 
 // Constants
 export * from './constants/finding-constants';
-export * from './constants/grading-constants'; // Fixed typo in grading constants
+export * from './constants/grading-constants';
 export * from './constants/result-constants';
 export * from './constants/result-object-type';
 export * from './constants/ungradable-constants';

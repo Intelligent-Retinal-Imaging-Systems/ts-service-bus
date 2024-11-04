@@ -1,6 +1,4 @@
-import { PersonGender } from "../person-gender";
-import { PersonName } from "../person-name";
-import { Gender } from "../../enums";
+import { PersonGender, PersonName, Gender } from "../../";
 
 export class ResultPatient {
     public PatientId: number;

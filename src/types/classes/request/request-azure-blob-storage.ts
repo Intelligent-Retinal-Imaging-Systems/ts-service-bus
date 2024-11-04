@@ -1,4 +1,4 @@
-class RequestAzureBlobStorage {
+export class RequestAzureBlobStorage {
     public Container: string = "";
     public FileName: string = "";
 

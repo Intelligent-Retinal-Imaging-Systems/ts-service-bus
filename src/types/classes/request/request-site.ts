@@ -1,3 +1,4 @@
+import {Address} from "../../"
 /**
  * Structure for IRIS site
  */

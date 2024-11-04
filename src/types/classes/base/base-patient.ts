@@ -1,6 +1,4 @@
-import { PersonName } from '../person-name'; // Ensure you have the correct import path
-import { Gender } from '../../enums/gender'; // Ensure you have the correct import path
-import { PersonGender } from '../person-gender'; // Ensure you have the correct import path
+import { PersonName, Gender, PersonGender } from '../../';
 
 export class BasePatient {
     public LocalId: string;

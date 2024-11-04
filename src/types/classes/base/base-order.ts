@@ -1,4 +1,4 @@
-import { EvaluationType } from "../../enums";
+import { EvaluationType } from "../../";
 
 class BaseOrder {
     public CreatedTime: Date; // Change to Date for better type safety

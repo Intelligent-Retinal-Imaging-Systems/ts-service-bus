@@ -1,4 +1,4 @@
-import { PersonName } from '../person-name'; // Ensure correct import path
+import { PersonName } from '../../';
 
 export abstract class BaseProvider {
     public NPI: string;

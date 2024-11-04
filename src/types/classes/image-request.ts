@@ -1,8 +1,4 @@
-import { RequestImage } from "./request/request-image";
-import { BaseCamera } from "./base/base-camera";
-import { RequestSite } from "./request/request-site";
-import { ImageClass } from "../enums/image-class";
-import { ImageEncoding } from "../enums/image-encoding";
+import { RequestImage, BaseCamera, RequestSite, ImageClass, ImageEncoding } from "../";
 
 export class ImageRequest {
     public OrderLocalId: string = ""; // Initialize to an empty string

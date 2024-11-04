@@ -1,4 +1,4 @@
-import { RequestSite } from "./request-site";
+import {RequestSite, ResultEyeSideGrading} from "../../";
 
 class GradingRequest {
     public OD: ResultEyeSideGrading | undefined; // Use undefined if it's optional

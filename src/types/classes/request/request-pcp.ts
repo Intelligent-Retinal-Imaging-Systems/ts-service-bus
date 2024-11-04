@@ -1,4 +1,6 @@
-class RequestPCP {
+import {PersonName} from "../../";
+
+export class RequestPCP {
     public Name: PersonName; // Declare property without initial value
     public NPI?: string; // Optional property
     public EmailAddress?: string; // Optional property

@@ -1,4 +1,6 @@
-class RequestHealthPlan {
+import {RequestPCP} from "../../";
+
+export class RequestHealthPlan {
     public PrimaryCareProvider: RequestPCP = new RequestPCP();
     public LocalId: string = "";
     public Name: string = "";

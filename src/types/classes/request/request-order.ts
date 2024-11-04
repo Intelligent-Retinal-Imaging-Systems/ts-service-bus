@@ -1,7 +1,9 @@
+import {EvaluationType} from "../../";
+
 /**
  * Structure containing order details
  */
-class RequestOrder {
+export class RequestOrder {
     /**
      * Optionally specify the procedure (CPT Code)
      */

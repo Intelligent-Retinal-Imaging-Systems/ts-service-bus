@@ -1,8 +1,4 @@
-import { BaseCamera } from "./base-camera";
-import { RequestSite } from "../request/request-site";
-import { RequestImage } from "../request/request-image"; // Ensure RequestImage is imported
-import { ImageClass, ImageEncoding } from "../../enums"; // Ensure these enums are imported
-
+import {BaseCamera, RequestSite, RequestImage, ImageClass, ImageEncoding } from "../../";
 abstract class BaseImageRequest {
     public Image: RequestImage; // Will be initialized in the constructor
     public ImageClass: ImageClass | undefined; // Declare property without initial value

@@ -1,4 +1,6 @@
-class RequestCamera {
+import {RequestImage} from "../../";
+
+export class RequestCamera {
     public Images: RequestImage[] = [];
     public Name: string = "";
     public LocalId: string = "";

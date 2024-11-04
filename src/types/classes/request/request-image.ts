@@ -1,3 +1,5 @@
+import {Laterality, ImageContext, RequestAzureBlobStorage} from "../../";
+
 export class RequestImage {
     public LocalId: string = "";
     public Taken: any; // Consider specifying a more precise type if possible

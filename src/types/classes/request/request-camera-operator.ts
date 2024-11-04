@@ -1,4 +1,6 @@
-class RequestCameraOperator {
+import {PersonName} from "../../";
+
+export class RequestCameraOperator {
     public NPI: string = "";
     public Name: PersonName = new PersonName();
     public Associations: string = "";
