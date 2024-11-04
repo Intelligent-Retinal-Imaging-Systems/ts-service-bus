@@ -1,12 +1,11 @@
 {
-    "name": "@iris/service-bus",
+    "name": "@iris.public/service-bus",
     "version": "1.0.0",
-    "author": " Intelligent Retinal Imaging Systems (http://retinalscreenings.com)",
+    "description": "**Build Instructions**",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "scripts": {
-        "build": "tsc",
-        "prepublishOnly": "npm run build"
+    "directories": {
+        "example": "examples"
     },
     "dependencies": {
         "@azure/identity": "^4.5.0",
@@ -14,5 +13,14 @@
         "os": "^0.1.2",
         "typescript": "^5.6.3",
         "v18": "^1.0.2"
-    }
+    },
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Intelligent-Retinal-Imaging-Systems/ts-service-bus"
+    },
+    "author": "Intelligent Retinal Imaging Systems - https://retinalscreenings.com"
 }
